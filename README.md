@@ -28,11 +28,11 @@ Group D: D1, D2 (for Model 2)
    • Images are processed into smaller patches of 100 x 100 pixels to facilitate training on localized features.  
 2) Train-Test Split  
    • The dataset is split into a 90:10 ratio for training and testing purposes.  
-        Model 1: Train on Groups A1, A2, B1, and B2.    
-        Model 2: Train on Groups C1, C2, D1, and D2.  
-3) Building CNN Models
-   • Model 1: Classifying Group A vs. Group B.
-   • Model 2: Classifying Group C vs. Group D.
+     • Model 1: Train on Groups A1, A2, B1, and B2.      
+     • Model 2: Train on Groups C1, C2, D1, and D2.    
+3) Building CNN Models  
+   • Model 1: Classifying Group A vs. Group B.  
+   • Model 2: Classifying Group C vs. Group D.  
 4) Model Testing
   • Both models are evaluated for training accuracy, validation accuracy, and test performance.  
   
