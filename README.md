@@ -1,20 +1,20 @@
 # AI-in-Pathology-Image-Analysis
 
-This repository contains the coursework assignment for the MSc Cancer Genomics and Data Science program. The task involves analyzing pathology images using Convolutional Neural Networks (CNNs).
+This repository contains the coursework assignment for the MSc Cancer Genomics and Data Science program. The task involves analyzing pathology images using Convolutional Neural Networks (CNNs).< br / >
 
-8 H&E files provided starting with letters A-D. This is grouped as bellow:
-• Group A: A1, A2 (For Model 1)
-• Group B: B1, B2 (For Model 1)
-• Group C: C1, C2 (For Model 2)
-• Group D: D1, D2 (For Model 2)
+8 H&E files provided starting with letters A-D. This is grouped as bellow:< br / >
+• Group A: A1, A2 (For Model 1)< br / >
+• Group B: B1, B2 (For Model 1)< br / >
+• Group C: C1, C2 (For Model 2)< br / >
+• Group D: D1, D2 (For Model 2)< br / >
 
 
 Instructions - process the images into patches of 100 by 100. Then, generate the train and test set using 90:10 ratio. Build 2 CNN models for each images pair. 
 
-## Image pre-processing
-## Preparing the train test split for model 1 and model 2
-## Building 2 CNN models to predict 1) A vs B and 2) C vs D
-## Testing moodel 1 and model 2 
+**Image pre-processing**
+**Preparing the train test split for model 1 and model 2**
+**Building 2 CNN models to predict 1) A vs B and 2) C vs D**
+**Testing moodel 1 and model 2**
 
 
 Post-analysis questions:
