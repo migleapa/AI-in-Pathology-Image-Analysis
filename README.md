@@ -59,8 +59,9 @@ This suggests that both models are overfitting the training data and are not lea
   
 Several strategies were employed to address the overfitting issue:  
 
-Reduced model complexity: Simplified model architectures.  
-Regularization techniques: Added dropout layers and applied kernel and bias regularization to promote generalization.  
+• Reduced model complexity: Simplified model architectures.  
+• Regularization techniques: Added dropout layers and applied kernel and bias regularization to promote generalization.  
+
 Despite these efforts, the models continued to overfit the training data, likely due to the sparsity of the dataset. More data is needed to improve the models' robustness and ability to generalize well.  
 
 
