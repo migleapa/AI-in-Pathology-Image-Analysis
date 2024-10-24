@@ -2,11 +2,25 @@
 
 This repository contains the coursework assignment for the MSc Cancer Genomics and Data Science program. The task involves analyzing pathology images using Convolutional Neural Networks (CNNs).  
 
-8 H&E files provided starting with letters A-D. This is grouped as bellow:  
-• Group A: A1, A2 (For Model 1)  
-• Group B: B1, B2 (For Model 1)  
-• Group C: C1, C2 (For Model 2)  
-• Group D: D1, D2 (For Model 2)  
+### Project Overview  
+
+The dataset consists of 8 Hematoxylin and Eosin (H&E) stained image files, labeled from A1 to D2, grouped into two distinct sets for building two CNN models:  
+
+Group A: A1, A2 (for Model 1)  
+Group B: B1, B2 (for Model 1)  
+Group C: C1, C2 (for Model 2)  
+Group D: D1, D2 (for Model 2)  
+
+
+### Task Summary:
+
+Pre-process the images: Divide them into patches of size 100 x 100 pixels.  
+Generate train and test sets: Split the data into 90% training and 10% testing.  
+Build two CNN models:  
+ • Model 1 for differentiating between Groups A and B.  
+ • Model 2 for differentiating between Groups C and D.  
+Evaluate performance: Test each model's accuracy and assess overfitting and generalization issues.  
+
 
 
 Instructions - process the images into patches of 100 by 100. Then, generate the train and test set using 90:10 ratio. Build 2 CNN models for each images pair. 
