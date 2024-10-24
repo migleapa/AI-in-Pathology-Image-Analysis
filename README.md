@@ -27,7 +27,7 @@ Group D: D1, D2 (for Model 2)
 1) Image Pre-processing  
    • Images are processed into smaller patches of 100 x 100 pixels to facilitate training on localized features.  
 2) Train-Test Split  
-   • The dataset is split into a 90:10 ratio for training and testing purposes.  
+   The dataset is split into a 90:10 ratio for training and testing purposes.  
      • Model 1: Train on Groups A1, A2, B1, and B2.      
      • Model 2: Train on Groups C1, C2, D1, and D2.    
 3) Building CNN Models  
